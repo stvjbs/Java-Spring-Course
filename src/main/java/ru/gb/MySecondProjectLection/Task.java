@@ -23,6 +23,7 @@ public class Task {
         this.id = UUID.randomUUID();
         this.name = name;
         this.description = description;
+
         this.status = Status.TO_DO;
     }
 
